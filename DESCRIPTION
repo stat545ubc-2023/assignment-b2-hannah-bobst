@@ -1,10 +1,9 @@
 Package: maxvalues
-Title: What the Package Does (One Line, Title Case)
+Title: Find Maximum Values by Groups and Variables
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+    person("Hannah", "Bobst", , "hbobst@student.ubc.ca", role = c("aut", "cre"))
+Description: This is a package for grouping data and finding the maximum values of variables for each group. The groups and variables are specified by the user. The user may also specify whether or not to remove NA values.  
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
