@@ -1,6 +1,6 @@
 Package: maxvalues
 Title: Find Maximum Values by Groups and Variables
-Version: 0.0.0.9000
+Version: 0.1.0
 Authors@R: 
     person("Hannah", "Bobst", , "hbobst@student.ubc.ca", role = c("aut", "cre"))
 Description: This is a package for grouping data and finding the maximum values of variables for each group. The groups and variables are specified by the user. The user may also specify whether or not to remove NA values.  
