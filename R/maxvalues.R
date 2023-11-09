@@ -12,7 +12,11 @@
 #' @import tibble
 #' @examples
 #' library(tibble)
-#' ex_data <- tibble(main_groups = c(rep("Group1",5), rep("Group2",5), rep("Group3",5)), sub_groups = c("subgroup1", "subgroup2", "subgroup3", "subgroup3", "subgroup2","subgroup1", "subgroup1", "subgroup1", "subgroup1", "subgroup3", "subgroup2", "subgroup3", "subgroup2", "subgroup1", "subgroup1"), values1 = c(59.55907, 38.73754, 54.49307, 52.52262, 59.53699, NA, 42.09835, 35.06464, 57.96973, 57.52726, 57.64511, 38.66776, NA, 41.15472, NA), values2 = c(2,5,7,NA,35,8,NA,15,67,8,9,36,14,23,6))
+#' groupings <- c(rep("Group1",5), rep("Group2",5), rep("Group3",5))
+#' subgroupings <- c("subgroup1", "subgroup2", "subgroup3", "subgroup3", "subgroup2","subgroup1", "subgroup1", "subgroup1", "subgroup1", "subgroup3", "subgroup2", "subgroup3", "subgroup2", "subgroup1", "subgroup1")
+#' value_set1 <- c(59.56, 38.74, 54.49, 52.52, 59.54, NA, 42.10, 35.06, 57.97, 57.52, 57.64, 38.62, NA, 41.15, NA)
+#' value_set2 <- c(2,5,7,NA,35,8,NA,15,67,8,9,36,14,23,6)
+#' ex_data <- tibble(main_groups = groupings, sub_groups = subgroupings, values1 = value_set1, values2 = value_set2)
 #'
 #' max_values(data = ex_data, main_groups, sub_groups, vars = values1:values2, na.rm = TRUE)
 #' max_values(data = ex_data, main_groups, vars = values1:values2, na.rm = FALSE)
