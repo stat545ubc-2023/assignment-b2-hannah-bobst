@@ -1,6 +1,6 @@
 #' @title Group data and summarize maximums of selected variables
 #'
-#' @description max_values groups a data frame (or data frame extension) and maximizes the variables. The groups and variables to be maximized are specified in the function arguments.
+#' @description max_values groups a data set (data frame, data frame extension, or tibble) and maximizes the variables. The groups and variables to be maximized are specified in the function arguments.
 #'
 #' @param data A data frame or tibble.
 #' @param vars A character vector with the variables (vars) to be maximized. These variable names must correspond to columns with numerical entries.

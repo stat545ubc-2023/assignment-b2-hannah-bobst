@@ -19,7 +19,7 @@ max_values(data, ..., vars, na.rm = TRUE)
 A tibble summarizing the maximum values of variable by groups.
 }
 \description{
-max_values groups a data frame (or data frame extension) and maximizes the variables. The groups and variables to be maximized are specified in the function arguments.
+max_values groups a data set (data frame, data frame extension, or tibble) and maximizes the variables. The groups and variables to be maximized are specified in the function arguments.
 }
 \examples{
 library(tibble)
