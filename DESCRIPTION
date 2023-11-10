@@ -1,12 +1,17 @@
 Package: maxvalues
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Title: Find Maximum Values by Groups and Variables
+Version: 0.1.0
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Hannah", "Bobst", , "hbobst@student.ubc.ca", role = c("aut", "cre"))
+Description: This is a package for grouping data and finding the maximum values of variables for each group. The groups and variables are specified by the user. The user may also specify whether or not to remove NA values.  
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.1
+Imports: 
+    dplyr,
+    magrittr,
+    tibble
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
